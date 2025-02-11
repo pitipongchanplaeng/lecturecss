@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #wow + p {
+        color: rgb(25, 0, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to SAU</h1>
+    <strong>SELECT แบบที่ 9 : Adjacent Selector</strong>
+    <!-- คือ ต้องมี S1 S2 คั่นด้วยเครื่องหมายมากกว่า + หมายถึง S2 ตัวแรกที่เจอที่อยู่ถัดจาก S1 -->
+    <div id="wow">
+      <p>1111</p>
+      <p>2222</p>
+      <span>3333</span>
+      <div id="woo">
+        <p>4444</p>
+        <div id="wee">
+          <p>5555</p>
+        </div>
+        <p>6666</p>
+      </div>
+      <p>7777</p>
+      <span>8888</span>
+    </div>
+    <p>9999</p>
+    <span>AAAA</span>
+    <p>BBBB</p>
+  </body>
+</html>
